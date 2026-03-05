@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="wmGold" x1="200" y1="120" x2="1040" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B56D" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#B8913C" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#7C5A18" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="wmBlue" x1="220" y1="140" x2="980" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CC7FF" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#2D7CFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#2D7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Large feather silhouette -->
+  <path d="M860 130c-200 0-410 170-530 360-115 180-150 355-55 355 170 0 355-155 470-335 105-165 165-340 165-470 0-70-25-110-50-110Z" fill="url(#wmBlue)" filter="url(#blur)"/>
+  <path d="M870 120c-220 0-450 185-585 400-130 205-170 405-65 405 185 0 390-170 515-365 120-190 190-390 190-540 0-80-30-120-55-120Zm-40 105c15 0 25 15 25 40 0 90-45 235-140 385-95 150-240 275-370 275-45 0-70-30-70-85 0-90 55-235 155-395 105-170 260-320 400-320Z" fill="url(#wmGold)"/>
+
+  <!-- Engraved spine cuts -->
+  <path d="M380 820c140-120 280-280 400-510" stroke="#0B1224" stroke-opacity="0.18" stroke-width="8" stroke-linecap="round"/>
+  <path d="M430 720c110-95 225-230 325-420" stroke="#0B1224" stroke-opacity="0.12" stroke-width="7" stroke-linecap="round"/>
+  <path d="M485 610c85-75 175-180 255-335" stroke="#0B1224" stroke-opacity="0.10" stroke-width="6" stroke-linecap="round"/>
+</svg>

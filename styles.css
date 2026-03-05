@@ -1,4 +1,3 @@
-PASTE_STYLES_CSS_HERE
 :root{
   --bg:#070B14;
   --bg2:#0B1224;
@@ -8,6 +7,8 @@ PASTE_STYLES_CSS_HERE
   --faint:#7F8BB3;
   --gold:#D7B56D;
   --gold2:#B8913C;
+  --blue:#2D7CFF;
+  --blue2:#6CC7FF;
   --border:rgba(215,181,109,0.22);
   --shadow: 0 18px 60px rgba(0,0,0,0.55);
 }
@@ -17,14 +18,20 @@ html,body{height:100%}
 body{
   margin:0;
   font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:radial-gradient(1100px 650px at 10% 0%, rgba(215,181,109,0.16), transparent 55%),
-             radial-gradient(900px 520px at 90% 10%, rgba(95,140,255,0.14), transparent 60%),
-             linear-gradient(180deg, var(--bg), var(--bg2));
+  background:
+    url("assets/feather-watermark.svg") no-repeat,
+    radial-gradient(1100px 650px at 10% 0%, rgba(215,181,109,0.16), transparent 55%),
+    radial-gradient(900px 520px at 90% 10%, rgba(108,199,255,0.12), transparent 60%),
+    radial-gradient(900px 520px at 92% 0%, rgba(45,124,255,0.10), transparent 60%),
+    linear-gradient(180deg, var(--bg), var(--bg2));
+  background-position: 85% 20%, 0 0, 0 0, 0 0, 0 0;
+  background-size: 980px auto, auto, auto, auto, auto;
   color:var(--text);
   line-height:1.5;
 }
 
-a{color:inherit; text-decoration:none}a:hover{opacity:0.92}
+a{color:inherit; text-decoration:none}
+a:hover{opacity:0.92}
 
 .container{width:min(1120px, calc(100% - 40px)); margin:0 auto;}
 
@@ -43,13 +50,13 @@ a{color:inherit; text-decoration:none}a:hover{opacity:0.92}
 
 .brand{display:flex; align-items:center; gap:12px;}
 .brand__mark{
-  width:40px; height:40px; display:grid; place-items:center;
-  border-radius:12px;
-  background:linear-gradient(180deg, rgba(215,181,109,0.22), rgba(215,181,109,0.08));
+  width:44px; height:44px; display:grid; place-items:center;
+  border-radius:14px;
+  background:linear-gradient(180deg, rgba(215,181,109,0.22), rgba(215,181,109,0.06));
   border:1px solid var(--border);
-  color:var(--gold);
-  font-weight:700;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
+.brand__mark img{display:block; width:28px; height:28px; filter: drop-shadow(0 10px 18px rgba(0,0,0,0.35));}
 .brand__name{font-weight:700; letter-spacing:0.2px;}
 .brand__tag{font-size:12px; color:var(--muted)}
 
