@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="14" y1="10" x2="82" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E1A6"/>
+      <stop offset="0.35" stop-color="#D7B56D"/>
+      <stop offset="0.75" stop-color="#B8913C"/>
+      <stop offset="1" stop-color="#7C5A18"/>
+    </linearGradient>
+    <linearGradient id="blueRim" x1="12" y1="16" x2="84" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CC7FF" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#2D7CFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2D7CFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Rim highlight (electric blue) -->
+  <path d="M66 16C52 16 37 28 29 42c-8 13-11 26-9 36 1 7 6 11 13 11 12 0 25-10 34-24 8-12 12-25 12-36 0-8-4-13-13-13Z" fill="url(#blueRim)" filter="url(#soft)"/>
+
+  <!-- Feather body (forged gold) -->
+  <path d="M67 14c-15 0-31 13-40 29C16 60 15 78 31 78c13 0 27-11 36-25 9-14 14-29 14-40 0-10-5-15-14-15Zm-3 10c2 0 3 2 3 5 0 5-2 12-6 20-3 6-7 12-12 17-6 6-12 10-17 10-3 0-5-2-5-6 0-5 2-12 6-19 4-7 9-14 15-19 5-5 11-8 16-8Z" fill="url(#gold)"/>
+
+  <!-- Barbs (engraved cuts) -->
+  <path d="M33 72c8-7 16-16 23-29" stroke="#0B1224" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 63c6-5 13-12 19-22" stroke="#0B1224" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 54c5-4 10-10 15-18" stroke="#0B1224" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+</svg>
