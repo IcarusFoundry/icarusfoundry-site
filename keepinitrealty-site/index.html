@@ -51,43 +51,33 @@
       <div class="section__inner">
         <h2>FEATURED LISTINGS</h2>
 
-        <div class="listings">
-          <article class="card card--hero">
-            <div class="card__img" aria-label="Featured listing"></div>
-            <div class="card__body">
-              <p class="price">$2,300,000</p>
-              <p class="meta">5 Beds &nbsp;|&nbsp; 7 Baths &nbsp;|&nbsp; 6,594 SqFt<br/>Bethesda, MD 20817</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__img" style="background-image:url('assets/listing-2.jpg')" aria-label="Listing"></div>
-            <div class="card__body">
-              <p class="price">$839,000</p>
-              <p class="meta">4 Beds &nbsp;|&nbsp; 5 Baths &nbsp;|&nbsp; 4,795 SqFt<br/>Bristow, VA 20136</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__img" style="background-image:url('assets/listing-3.jpg')" aria-label="Listing"></div>
-            <div class="card__body">
-              <p class="price">$780,000</p>
-              <p class="meta">4 Beds &nbsp;|&nbsp; 4 Baths &nbsp;|&nbsp; 3,406 SqFt<br/>Frederick, MD 21704</p>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card__img" style="background-image:url('assets/listing-4.jpg')" aria-label="Listing"></div>
-            <div class="card__body">
-              <p class="price">$720,000</p>
-              <p class="meta">5 Beds &nbsp;|&nbsp; 4 Baths &nbsp;|&nbsp; 3,671 SqFt<br/>Upper Marlboro, MD 20772</p>
-            </div>
-          </article>
+        <div class="card" style="padding:0; overflow:hidden">
+          <iframe
+            src="/assets/idx-placeholder.html"
+            id="chimeWidgetHome"
+            frameborder="0"
+            style="width:100%;height:100%;min-height:720px"
+            title="Featured Listings">
+          </iframe>
         </div>
 
         <div class="listings__footer">
           <a class="btn btn--tan" href="pages/buy.html">View More</a>
         </div>
+
+        <script>
+          const chimeWidget = document.getElementById('chimeWidgetHome');
+          window.addEventListener('message', function (e) {
+            try {
+              let data = JSON.parse(e.data);
+              if (data.from === 'chimeSite' && data.event === 'updateBodyRect') {
+                chimeWidget.style.height = data.data.height + 'px'
+              }
+            } catch (error) {
+              console.log(error)
+            }
+          })
+        </script>
       </div>
     </section>
 
