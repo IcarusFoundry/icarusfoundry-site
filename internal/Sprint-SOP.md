@@ -7,6 +7,7 @@
 **Email vs SMS reality (important):**
 - **Email auto‑send** can typically be enabled faster for pre‑approved templates/categories.
 - **SMS auto‑send** may require registration/compliance steps (e.g., A2P/10DLC where applicable) plus explicit template/category approval. If registration can’t be completed within the sprint window, SMS auto‑send becomes a **post‑sprint roadmap item** while draft‑first stays available.
+- **Provider policy:** Outbound messaging runs through **client-owned** provider accounts (email/SMS). We can help set them up, but we don’t want liability from running comms under our own subaccounts.
 
 ---
 
