@@ -38,6 +38,8 @@ Property management teams (SFR, multifamily, HOA, commercial) dealing with high�
 Book a **30‑minute strategy call**:
 https://calendly.com/bigpapifromthenorth/30min
 
+Or email: **info@icarusfoundry.com**
+
 On the call we’ll:
 - identify 1–2 workflows bleeding time/money
 - define success metrics
