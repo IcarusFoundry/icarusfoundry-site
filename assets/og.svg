@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07070A"/>
+      <stop offset="1" stop-color="#0C0D12"/>
+    </linearGradient>
+    <linearGradient id="g" x1="420" y1="140" x2="840" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67B7FF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#D9B26C" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="250" cy="120" r="280" fill="#67B7FF" opacity="0.10"/>
+  <circle cx="1020" cy="90" r="310" fill="#D9B26C" opacity="0.10"/>
+
+  <g transform="translate(90 120)">
+    <path d="M355.2 52.8c-74.8 30.1-142.8 100.1-180.2 171.2-29.1 55.1-38.6 110.2-28.6 168.4 66.8-25.1 125-62.9 172.6-113.4 48.4-51.4 78.4-108.7 90.3-172-18.5-18.2-36.6-35.4-54.1-54.2Z" fill="url(#g)"/>
+    <path d="M146.6 392.4c77.2-76.9 148-147.7 212.4-212.5" stroke="#F3F4F6" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <text x="560" y="255" fill="#F3F4F6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="54" font-weight="750">Icarus Foundry</text>
+  <text x="560" y="320" fill="#B8BCC7" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="32">Flightworthy AI integrations for property managers</text>
+  <text x="560" y="380" fill="#8E94A6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="24">14‑Day AI Ops Sprint • Starting at $7,500</text>
+</svg>
