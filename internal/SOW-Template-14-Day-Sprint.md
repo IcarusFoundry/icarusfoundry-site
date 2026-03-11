@@ -78,6 +78,7 @@ Provider will deliver:
 If YES:
 - Fee: **+$3,500 flat**
 - Mode: **Draft‑first default**, with optional guardrailed auto‑send for approved categories/templates.
+- **SMS note:** SMS auto‑send may require registration/compliance steps (e.g., A2P/10DLC where applicable). If registration cannot be completed within the sprint timeline, SMS auto‑send will be scheduled as a post‑sprint roadmap item while draft‑first remains available.
 - Client responsibilities: Client represents it has required consent/permission to message recipients and will provide approved templates, tone rules, escalation rules, and suppression/opt‑out policy.
 
 ---

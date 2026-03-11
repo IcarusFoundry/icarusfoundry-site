@@ -4,6 +4,10 @@
 
 **Default stance:** Draft‑first. Auto‑send only when the client is comfortable and the message type is appropriate.
 
+**Email vs SMS reality (important):**
+- **Email auto‑send** can typically be enabled faster for pre‑approved templates/categories.
+- **SMS auto‑send** may require registration/compliance steps (e.g., A2P/10DLC where applicable) plus explicit template/category approval. If registration can’t be completed within the sprint window, SMS auto‑send becomes a **post‑sprint roadmap item** while draft‑first stays available.
+
 ---
 
 ## Definition of Done (Sprint)
